@@ -13,7 +13,7 @@
 <main>
  <section class="about-hero wrap">
   <div class="about-hero-copy"><span class="eyebrow">ABOUT KAAFTOON STORE</span><h1>Good technology.<br><em>Good decisions.</em></h1><p>Kaaftoon Store brings laptops, smartphones and security essentials together in one straightforward place. Browse the collection, ask questions and order directly with our team.</p><a class="btn btn-primary" href="shop.html">Browse the collection</a></div>
-  <div class="about-hero-art"><div class="about-art-card"><span class="about-art-k">K.</span><span>TECH, MADE<br>STRAIGHTFORWARD.</span></div><div class="about-art-caption">COMPUTING / MOBILE / SECURITY</div></div>
+  <div class="about-hero-art about-product-collage"><div class="about-collage-main"><img id="about-collage-laptop" src="assets/images/product-placeholder.svg" alt="Laptop from the Kaaftoon Store catalogue"></div><div class="about-collage-side"><div><img id="about-collage-phone" src="assets/images/product-placeholder.svg" alt="Smartphone from the Kaaftoon Store catalogue"></div><div><img id="about-collage-camera" src="assets/images/product-placeholder.svg" alt="CCTV camera from the Kaaftoon Store catalogue"></div></div><span class="about-collage-label">COMPUTING / MOBILE / SECURITY</span></div>
  </section>
  <section class="about-values section-space"><div class="wrap"><div class="section-heading centered-heading"><div><span class="eyebrow">WHAT MATTERS HERE</span><h2>A more personal way to shop.</h2></div></div><div class="benefit-grid">
  <article class="benefit-card"><span class="benefit-number">01</span><h3>Useful choices</h3><p>Explore a focused selection of computers, phones and security products.</p></article>
@@ -32,5 +32,5 @@
 </main>
 <div id="site-footer"></div>
 <script src="js/config.js"></script><script src="js/products.js"></script><script src="js/app.js"></script>
-<script>document.addEventListener("DOMContentLoaded",function(){if(window.KAA_CONFIG&&KAA_CONFIG.WHATSAPP_NUMBER){document.getElementById("about-whatsapp").textContent="+252 63 658 1295";document.getElementById("about-whatsapp-link").href="https://wa.me/"+KAA_CONFIG.WHATSAPP_NUMBER;document.getElementById("about-whatsapp-link").target="_blank";}});</script>
+<script>document.addEventListener("DOMContentLoaded",function(){if(window.KAA_CONFIG&&KAA_CONFIG.WHATSAPP_NUMBER){document.getElementById("about-whatsapp").textContent="+252 63 658 1295";document.getElementById("about-whatsapp-link").href="https://wa.me/"+KAA_CONFIG.WHATSAPP_NUMBER;document.getElementById("about-whatsapp-link").target="_blank";}const image=(id,productId)=>{const product=KAA.productById(productId);const el=document.getElementById(id);if(product&&el){el.src=product.image;el.alt=product.name;el.onerror=()=>el.hidden=true;}};image("about-collage-laptop","macbook-air-m2-13");image("about-collage-phone","iphone-15");image("about-collage-camera","cctv-dome-camera");});</script>
 </body></html>
