@@ -94,14 +94,14 @@ window.KAA_PRODUCTS = [
     specs:[["Camera style","Dome"],["Brand/model","Confirm with store"],["Resolution","Confirm exact model"],["Weather rating","Confirm exact model"]]
   },
   {
-    id:"cctv-bullet-camera", name:"Bullet CCTV Camera", brand:"CCTV", category:"CCTV cameras", type:"Security camera", tag:"CCTV",
+    id:"cctv-bullet-camera", name:"Bullet CCTV Camera", brand:"", category:"CCTV cameras", type:"Security camera", tag:"CCTV",
     description:"Reference photograph of bullet-style surveillance cameras. Exact brand, model, resolution, lens and outdoor rating must be confirmed with the store.",
     image:commons("CCTV.jpg"), imageSource:"https://commons.wikimedia.org/wiki/File:CCTV.jpg", imageCredit:"JensPersson · CC BY-SA 3.0", imageLicense:"CC BY-SA 3.0", imageLicenseUrl:"https://creativecommons.org/licenses/by-sa/3.0/",
     options:[{label:"Installation preference",values:["Outdoor","Indoor","Confirm with store"]},{label:"Resolution preference",values:["2MP","4MP","8MP","Confirm with store"]}],
     specs:[["Camera style","Bullet"],["Brand/model","Confirm with store"],["Resolution","Confirm exact model"],["Weather rating","Confirm exact model"]]
   },
   {
-    id:"cctv-ptz-camera", name:"PTZ CCTV Camera", brand:"CCTV", category:"CCTV cameras", type:"Security camera", tag:"CCTV",
+    id:"cctv-ptz-camera", name:"PTZ CCTV Camera", brand:"", category:"CCTV cameras", type:"Security camera", tag:"CCTV",
     description:"Reference photograph of PTZ surveillance cameras. Confirm the exact manufacturer, optical zoom, pan/tilt range and installation requirements before ordering.",
     image:commons("Dome CCTV cameras.JPG"), imageSource:"https://commons.wikimedia.org/wiki/File:Dome_CCTV_cameras.JPG", imageCredit:"KRoock74 · CC BY-SA 3.0", imageLicense:"CC BY-SA 3.0", imageLicenseUrl:"https://creativecommons.org/licenses/by-sa/3.0/",
     options:[{label:"Installation preference",values:["Indoor","Outdoor","Confirm with store"]},{label:"Zoom preference",values:["Ask about optical zoom","No preference"]}],
