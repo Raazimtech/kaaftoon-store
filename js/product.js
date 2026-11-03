@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded",()=>{
  const link=document.querySelector('link[rel="canonical"]');if(link)link.href=canonical;
  setMeta("description",p.name+". "+p.description+" Ask Kaaftoon Store to confirm current price, condition and availability.");
  setMeta("og:title",p.name+" | Kaaftoon Store",true);setMeta("og:description",p.description,true);setMeta("og:url",canonical,true);setMeta("og:image",p.image,true);
- const schema={"@context":"https://schema.org","@type":"Product","name":p.name,"description":p.description,"image":p.image,"brand":{"@type":"Brand","name":p.brand},"category":p.category,"url":canonical,"offers":{"@type":"Offer","availability":"https://schema.org/LimitedAvailability","priceCurrency":"USD","description":"Contact the store to confirm current price and availability."}};
+ const schema={"@context":"https://schema.org","@type":"Product","name":p.name,"description":p.description,"image":p.image,"brand":{"@type":"Brand","name":p.brand},"category":p.category,"url":canonical};
  const ld=document.createElement("script");ld.type="application/ld+json";ld.textContent=JSON.stringify(schema);document.head.append(ld);
  KAA.$("#product-breadcrumbs").innerHTML='<a href="index.html">Home</a><span>/</span><a href="shop.html">Shop</a><span>/</span><span>'+esc(p.name)+'</span>';
  const options={};const groups=(p.options||[]).map((o,i)=>'<div class="option-group"><label>'+esc(o.label)+'</label><div class="option-pills">'+o.values.map((v,j)=>'<button type="button" class="option-pill '+(j===0?"selected":"")+'" data-group="'+i+'" data-value="'+esc(v)+'">'+esc(v)+'</button>').join("")+'</div></div>').join("");
