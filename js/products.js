@@ -26,7 +26,7 @@ window.KAA_PRODUCTS = [
   {
     id:"macbook-air-m2-15", name:"Apple MacBook Air 15-inch (M2)", brand:"Apple", category:"MacBooks", type:"Laptop", tag:"MACBOOK AIR",
     description:"The 15-inch MacBook Air M2. Ask the store to confirm the exact memory, storage, finish and condition of the available unit.",
-    image:commons("Macbook Air 15 inch - 1.jpg"), imageSource:"https://commons.wikimedia.org/wiki/File:Macbook_Air_15_inch_-_1.jpg", imageCredit:"KKPCW (Kyu3) · CC BY-SA 4.0",
+    image:commons("Macbook Air 15 inch - 1.jpg"), imageSource:"https://commons.wikimedia.org/wiki/File:Macbook_Air_15_inch_-_1.jpg", imageCredit:"KKPCW (Kyu3) · CC BY-SA 4.0", imageLicense:"CC BY-SA 4.0", imageLicenseUrl:"https://creativecommons.org/licenses/by-sa/4.0/",
     options:[{label:"Memory preference",values:["8GB","16GB","24GB"]},{label:"Storage preference",values:["256GB SSD","512GB SSD","1TB SSD"]},{label:"Finish preference",values:["Midnight","Starlight","Silver","Space Grey"]}],
     specs:[["Chip","Apple M2"],["Display","15.3-inch"],["Product family","MacBook Air"],["Condition","Confirm with store"]]
   },
@@ -82,7 +82,7 @@ window.KAA_PRODUCTS = [
   {
     id:"samsung-galaxy-s24-ultra", name:"Samsung Galaxy S24 Ultra", brand:"Samsung", category:"Samsung phones", type:"Smartphone", tag:"GALAXY ULTRA",
     description:"Samsung Galaxy S24 Ultra. Confirm memory, storage, condition, S Pen inclusion and color with the store.",
-    image:commons("Samsung Galaxy S24 Ultra.jpg"), imageSource:"https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S24_Ultra.jpg", imageCredit:"Vis M · CC BY-SA 4.0",
+    image:commons("Samsung Galaxy S24 Ultra.jpg"), imageSource:"https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S24_Ultra.jpg", imageCredit:"Vis M · CC BY-SA 4.0", imageLicense:"CC BY-SA 4.0", imageLicenseUrl:"https://creativecommons.org/licenses/by-sa/4.0/",
     options:[{label:"Storage preference",values:["256GB","512GB","1TB"]},{label:"Condition preference",values:["New","Used","Either"]}],
     specs:[["Display","6.8-inch Dynamic AMOLED 2X"],["S Pen","Built in"],["Rear cameras","Quad camera system"],["Release year","2024"]]
   },
