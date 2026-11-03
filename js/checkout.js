@@ -22,11 +22,11 @@ document.addEventListener("DOMContentLoaded", () => {
     '<div class="form-field full"><label for="customer-location">City / delivery location *</label><input id="customer-location" name="location" required autocomplete="address-level2" placeholder="Where should the store contact you?"></div>' +
     '<div class="form-field full"><label for="customer-notes">Additional notes (optional)</label><textarea id="customer-notes" name="notes" rows="4" placeholder="Preferred delivery, questions or other details"></textarea></div>' +
     '<div class="form-error hidden" id="form-error" role="alert"></div>' +
-    '<div class="form-field full"><button class="btn btn-primary" type="submit">Continue to WhatsApp ↗</button>' +
+    '<div class="form-field full"><button class="btn btn-primary" type="submit">Continue to WhatsApp</button>' +
     '<p class="price-note">No payment is collected on this website. The store will confirm the order and payment details with you.</p></div></form>' +
     '<aside class="checkout-summary"><h2>Your order</h2>' + orderRows +
     '<div class="checkout-hint">Your WhatsApp message includes each product, selected option and quantity. The store will confirm prices and availability.</div>' +
-    '<a class="text-link" href="cart.html">Edit cart ↗</a></aside></div>';
+    '<a class="text-link" href="cart.html">Edit cart</a></aside></div>';
 
   KAA.$("#checkout-form").addEventListener("submit", event => {
     event.preventDefault();
