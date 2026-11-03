@@ -9,3 +9,12 @@ img{height:auto}
 @media(max-width:680px){.floating-whatsapp{right:14px;bottom:14px;padding:13px;border-radius:50%;width:50px;height:50px;justify-content:center}.floating-whatsapp-label{display:none}.main-nav{max-height:calc(100dvh - 68px);overflow:auto}.btn{min-height:44px}.header-icon{min-width:44px;min-height:44px}.detail-actions .btn{width:100%}}
 @media(max-width:360px){.wrap{width:calc(100% - 24px)}.hero-copy h1{font-size:39px}.category-grid{grid-template-columns:1fr}.category-card{height:112px}.product-image,.catalog-results .product-image{height:132px}.product-info h3{overflow-wrap:anywhere}.shop-toolbar .toolbar-actions{gap:8px}.sort-control{gap:5px}.cart-item{grid-template-columns:68px minmax(0,1fr)}.cart-item-image{width:68px;height:68px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+/* Final overrides for the updated circular contact control and mobile store layout */
+.floating-whatsapp{width:54px;height:54px;padding:0;border-radius:50%;display:grid;place-items:center;gap:0}
+.floating-whatsapp svg{width:27px;height:27px}
+.floating-whatsapp>span:first-child{font-size:0}
+.whatsapp-tooltip{position:absolute;right:65px;top:50%;transform:translateY(-50%);background:#14243B;color:#fff;border-radius:4px;padding:8px 11px;font-size:10px;white-space:nowrap;opacity:0;pointer-events:none}
+.floating-whatsapp:hover .whatsapp-tooltip,.floating-whatsapp:focus-visible .whatsapp-tooltip{opacity:1}
+@media(max-width:760px){.floating-whatsapp{right:14px;bottom:14px;width:50px;height:50px;padding:0;border-radius:50%}.floating-whatsapp svg{width:25px;height:25px}.checkout-product{grid-template-columns:50px minmax(0,1fr)}.checkout-product>img{width:50px;height:50px}.checkout-product .checkout-price{grid-column:2;text-align:left}}
+@media(max-width:390px){.cart-item-price{grid-column:2}.cart-item-options{font-size:8px}.checkout-product{gap:8px}}
