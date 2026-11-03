@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded",()=>{
  const unique=values=>[...new Set(values)].sort((a,b)=>a.localeCompare(b));
  const checks=(values,name,selected)=>values.map(v=>'<label class="filter-option"><input type="radio" name="'+name+'" value="'+KAA.escapeHTML(v)+'" '+(v===selected?'checked':'')+'> '+KAA.escapeHTML(v)+'</label>').join("");
  cats.innerHTML=checks(unique(KAA_PRODUCTS.map(p=>p.category)),"category",category);
- brands.innerHTML=checks(unique(KAA_PRODUCTS.map(p=>p.brand)),"brand",brand);
+ brands.innerHTML=checks(unique(KAA_PRODUCTS.map(p=>p.brand).filter(Boolean)),"brand",brand);
  function render(){
   let list=KAA_PRODUCTS.filter(p=>(!category||p.category===category)&&(!brand||p.brand===brand)&&(!query||[p.name,p.brand,p.category,p.description,p.type].join(" ").toLowerCase().includes(query.toLowerCase())));
   if(sort.value==="name-asc")list.sort((a,b)=>a.name.localeCompare(b.name));
