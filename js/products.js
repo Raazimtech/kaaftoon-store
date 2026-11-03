@@ -87,7 +87,7 @@ window.KAA_PRODUCTS = [
     specs:[["Display","6.8-inch Dynamic AMOLED 2X"],["S Pen","Built in"],["Rear cameras","Quad camera system"],["Release year","2024"]]
   },
   {
-    id:"cctv-dome-camera", name:"Dome CCTV Camera", brand:"CCTV", category:"CCTV cameras", type:"Security camera", tag:"CCTV",
+    id:"cctv-dome-camera", name:"Dome CCTV Camera", brand:"", category:"CCTV cameras", type:"Security camera", tag:"CCTV",
     description:"Reference photograph of a dome-style surveillance camera. This is a camera-type enquiry, not a named manufacturer model. Ask the store for exact brand, resolution and weather rating.",
     image:commons("CCTV dome camera.jpg"), imageSource:"https://commons.wikimedia.org/wiki/File:CCTV_dome_camera.jpg", imageCredit:"Nïall Green · CC BY-SA 1.0", imageLicense:"CC BY-SA 1.0", imageLicenseUrl:"https://creativecommons.org/licenses/by-sa/1.0/",
     options:[{label:"Installation preference",values:["Indoor","Outdoor","Confirm with store"]},{label:"Resolution preference",values:["2MP","4MP","8MP","Confirm with store"]}],
