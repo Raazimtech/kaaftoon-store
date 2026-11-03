@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 76" role="img" aria-labelledby="title desc">
+  <title id="title">Kaaftoon Store</title>
+  <desc id="desc">A deep pink shopping bag containing the letter K, followed by the Kaaftoon Store wordmark.</desc>
+  <g transform="translate(5 4)">
+    <path d="M17 25h43l4.5 40.5A5.5 5.5 0 0 1 59 71H18a5.5 5.5 0 0 1-5.5-5.5L17 25Z" fill="#C2185B"/>
+    <path d="M25 26V18.5C25 8.8 31.5 3 38.5 3S52 8.8 52 18.5V26" fill="none" stroke="#C2185B" stroke-width="6" stroke-linecap="round"/>
+    <path d="M31 37v24M48 37 31 49l18 12" fill="none" stroke="#fff" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="88" y="40" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800" letter-spacing="-0.9" fill="#14243B">Kaaftoon</text>
+  <text x="89" y="59" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="3.2" fill="#C2185B">STORE</text>
+</svg>
