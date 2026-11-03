@@ -309,3 +309,12 @@ body{background:#fff;color:var(--store-ink);font-family:var(--font-body,Inter,Ar
  .detail-actions{grid-template-columns:1fr}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}}
+
+/* Image-led About screen, using real items already present in the catalogue. */
+.about-product-collage{padding:22px;display:grid;grid-template-columns:1.35fr .8fr;grid-template-rows:1fr;gap:12px;position:relative;background:#E9EDF3}
+.about-collage-main,.about-collage-side>div{min-width:0;min-height:0;display:grid;place-items:center;padding:15px;background:#fff;border:1px solid #DCE2EB;border-radius:9px;overflow:hidden}
+.about-collage-main img{width:100%;height:220px;object-fit:contain}
+.about-collage-side{display:grid;grid-template-rows:1fr 1fr;gap:12px;min-height:0}
+.about-collage-side img{width:100%;height:100px;object-fit:contain}
+.about-collage-label{position:absolute;left:32px;bottom:31px;padding:7px 10px;background:rgba(255,255,255,.94);border:1px solid #E0E5EC;border-radius:5px;color:var(--navy);font-size:8px;font-weight:800;letter-spacing:.1em}
+@media(max-width:760px){.about-product-collage{min-height:210px;padding:13px;gap:8px}.about-collage-main img{height:160px}.about-collage-side{gap:8px}.about-collage-side>div{padding:7px}.about-collage-side img{height:70px}.about-collage-label{left:22px;bottom:22px;font-size:7px}}
