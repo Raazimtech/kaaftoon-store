@@ -1,0 +1,2 @@
+/* Store configuration. Add the store's WhatsApp number in international format, digits only, without + or spaces. Example: 252XXXXXXXXX */
+window.KAA_CONFIG={STORE_NAME:"Kaaftoon Store",WHATSAPP_NUMBER:"",CURRENCY_LABEL:"Price confirmed by store",CURRENCY_CODE:"USD"};
