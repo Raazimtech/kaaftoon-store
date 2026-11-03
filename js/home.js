@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded",()=>{
  const hero=KAA.productById("macbook-air-m2-13");
  if(hero){KAA.$("#home-hero-image").src=hero.image;KAA.$("#home-hero-image").alt=hero.name;KAA.$("#home-hero-name").textContent=hero.name;KAA.$("#home-hero-product").href="product.html?id="+encodeURIComponent(hero.id)}
  const featured=KAA.$("#featured-products");
- if(featured)featured.innerHTML=KAA_PRODUCTS.map(KAA.productCard).join("");
+ if(featured)featured.innerHTML=KAA_PRODUCTS.slice(0,8).map(KAA.productCard).join("");
  const search=new URLSearchParams(location.search).get("q");
  if(search)KAA.$("#home-search-input").value=search;
 });
