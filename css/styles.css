@@ -121,3 +121,38 @@
 .checkout-product-copy strong{font-size:10px;color:var(--navy)}
 .checkout-product-copy span,.checkout-product-copy small{font-size:9px;color:var(--muted);overflow-wrap:anywhere}
 .checkout-product .checkout-price{font-size:9px;color:var(--muted);white-space:nowrap}
+
+
+/* Kaaftoon Store usability refinement */
+:root{--font-body:"Inter",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;--font-display:"Plus Jakarta Sans","Inter",sans-serif}
+html{scroll-padding-top:90px;scroll-behavior:smooth}
+body{font-family:var(--font-body);font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+h1,h2,h3,.hero-float-card strong,.about-art-k{font-family:var(--font-display)}
+button,input,select,textarea{font-family:var(--font-body)}
+.product-card{min-width:0;border:1px solid #E6EAF0;border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 2px 10px rgba(18,34,56,.035)}
+.product-card:hover{transform:translateY(-3px);box-shadow:0 14px 32px rgba(18,34,56,.09)}
+.product-image,.catalog-results .product-image{height:270px;margin:0;padding:22px 24px;background:#F7F8FA;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;border-radius:0}
+.product-image img{display:block;width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;object-position:center;mix-blend-mode:normal;transition:transform .25s ease}
+.product-card:hover .product-image img{transform:scale(1.025)}
+.product-tag{z-index:2;top:14px;left:14px;border-radius:4px;padding:6px 9px}
+.product-info{padding:17px 18px 18px;gap:0}
+.product-category{font-size:10px;letter-spacing:.08em}
+.product-info h3{font-size:15px;line-height:1.4;min-height:0;margin:7px 0 8px;overflow-wrap:anywhere}
+.product-description{font-size:11px;line-height:1.65;min-height:0;margin:0 0 16px;color:#657184}
+.product-bottom{margin-top:auto;padding-top:13px;gap:10px;flex-wrap:wrap}
+.price-note{font-size:10px}
+.product-link{font-size:11px}
+.image-credit{display:none}
+.category-card{border-radius:10px;min-width:0}
+.category-card img{object-fit:contain;max-width:45%;max-height:120px}
+.store-hero-product{border-radius:14px}
+.store-hero-product img{object-fit:contain;object-position:center;width:100%;max-width:100%;height:350px}
+.detail-gallery{border-radius:14px;overflow:hidden;padding:24px}
+.detail-gallery img{width:100%;max-width:100%;height:450px;object-fit:contain;object-position:center;mix-blend-mode:normal}
+.detail-copy h1{overflow-wrap:anywhere}
+.btn,.filter-toggle,.sort-control select,.option-pill,.quantity-control button{transition:background-color .18s ease,border-color .18s ease,color .18s ease,transform .18s ease}
+.btn:active,.option-pill:active{transform:scale(.98)}
+.catalog-search input{min-height:44px}
+.catalog-search:focus-within,.home-search>div:focus-within{border-color:var(--pink);box-shadow:0 0 0 3px rgba(194,24,91,.09)}
+.filter-chip{cursor:pointer}
+.cart-item-image img,.checkout-product>img{object-fit:contain;mix-blend-mode:normal}
