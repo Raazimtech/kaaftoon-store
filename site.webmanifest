@@ -1,0 +1,11 @@
+{
+  "name": "Kaaftoon Store",
+  "short_name": "Kaaftoon",
+  "description": "Browse laptops, smartphones and CCTV security cameras at Kaaftoon Store.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#C2185B",
+  "lang": "en"
+}
